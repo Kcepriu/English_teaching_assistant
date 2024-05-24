@@ -1,0 +1,4 @@
+.main {
+  @apply h-full
+  outline outline-1 outline-green-300;
+}

@@ -1,0 +1,13 @@
+.wrapHeader {
+  @apply py-4
+  bg-dark_blue
+  text-text_white;
+}
+
+.title {
+  @apply font-roboto
+  text-size_40
+  font-weight_800
+  leading-line_height_17  
+  text-center;
+}

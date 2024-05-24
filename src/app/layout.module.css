@@ -1,0 +1,4 @@
+.wrapPage {
+  @apply flex flex-col
+  min-h-svh;
+}

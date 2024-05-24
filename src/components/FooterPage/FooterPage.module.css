@@ -1,0 +1,21 @@
+.wrapFooter {
+  @apply py-4
+  bg-dark_blue
+  text-text_white;
+}
+
+.wrapInformation {
+  @apply flex gap-2  items-center;
+}
+
+.link {
+  @apply flex 
+  gap-2  
+  items-center
+  transition
+  hover:text-blue_action;
+}
+
+.titleLink {
+  @apply text-gray_our;
+}
