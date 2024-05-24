@@ -1,4 +1,5 @@
 import type { Config } from "tailwindcss";
+import { breakpoints } from "@/constants/breakpoints";
 
 const config: Config = {
   content: [
@@ -13,6 +14,25 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+    },
+    fontFamily: {
+      roboto: [`var(--font-roboto)`],
+      inter: [`var(--font-inter)`],
+      robotoSerif: [`var(--font-roboto_serif)`],
+      itim: [`var(--font-itim)`],
+    },
+    screens: {
+      xs: `${breakpoints.small_mobile}px`,
+      // => @media (min-width: 320px) { ... }
+
+      sm: `${breakpoints.mobile}px`,
+      // => @media (min-width: 414px) { ... }
+
+      md: `${breakpoints.tablet}px`,
+      // => @media (min-width: 768px) { ... }
+
+      lg: `${breakpoints.desktop}px`,
+      // => @media (min-width: 1440px) { ... }
     },
   },
   plugins: [],
